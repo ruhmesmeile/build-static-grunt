@@ -4,4 +4,4 @@ WORKDIR /data
 
 ADD ["package.json", "npm-shrinkwrap.json", "/data/"]
 
-RUN npm install --gobal grunt-cli && npm install
+RUN npm install --global grunt-cli && npm install
