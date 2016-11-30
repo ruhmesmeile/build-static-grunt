@@ -1,4 +1,4 @@
-FROM node:0.10.45-wheezy
+FROM node:0.12.17-wheezy
 
 WORKDIR /data
 
